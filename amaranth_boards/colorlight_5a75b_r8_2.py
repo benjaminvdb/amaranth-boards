@@ -6,10 +6,10 @@ from amaranth.vendor.lattice_ecp5 import *
 from .resources import *
 
 
-__all__ = ["Colorlight_5A75B_R80Platform"]
+__all__ = ["Colorlight_5A75B_R82Platform"]
 
 
-class Colorlight_5A75B_R80Platform(LatticeECP5Platform):
+class Colorlight_5A75B_R82Platform(LatticeECP5Platform):
     device                 = "LFE5U-25F"
     package                = "BG256"
     speed                  = "7"
